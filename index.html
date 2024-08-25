@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG.Group6 AssignmentTearm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="LOGO.jpg">
+</head>
+<body>
+    <header>
+      <img src="LOGO.jpg" alt="Logo" style="width: 60px; margin-bottom: 0px; ">
+        <h1><span style="color: rgb(0, 11, 114); font-size: 35px;">GG</span>.Group<span style="color: rgb(9, 255, 214);">6</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Phone Finder</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filter-section">
+            <h2>Filters</h2>
+            <div class="filters">
+                <label><input type="checkbox" /> Card slot</label>
+                <label><input type="checkbox" /> 3.5mm jack</label>
+                <label><input type="checkbox" /> Wireless charging</label>
+                <label><input type="checkbox" /> 120Hz+ display</label>
+                <input class="clear-filters-button" type="button" value="Clear Filters" onclick="clearFilters()">
+            </div>
+        </section>
+
+        <section class="phone-list">
+            <h2>All Honor Phones</h2>
+            <div class="phones">
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-magic-2.jpg" alt="Honor Magic V2"/>
+                    <h3>Honor Magic V2</h3>
+                    <p>Release Date: 2023</p>
+                    <p class="price">$999</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-200-pro-.jpg" alt="Honor 200 Pro"/>
+                    <h3>Honor 200 Pro</h3>
+                    <p>Release Date: 2023</p>
+                    <p class="price">$799</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-x60i.jpg" alt="Honor X60i"/>
+                    <h3>Honor X60i</h3>
+                    <p>Release Date: 2023</p>
+                    <p class="price">$699</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-50-.jpg" alt="Honor 50"/>
+                    <h3>Honor 50</h3>
+                    <p>Release Date: 2022</p>
+                    <p class="price">$599</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-70.jpg" alt="Honor 70"/>
+                    <h3>Honor 70</h3>
+                    <p>Release Date: 2022</p>
+                    <p class="price">$649</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-9a.jpg" alt="Honor 9A"/>
+                    <h3>Honor 9A</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$199</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-20.jpg" alt="Honor 20"/>
+                    <h3>Honor 20</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$499</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-v40-5g.jpg" alt="Honor V40"/>
+                    <h3>Honor V40</h3>
+                    <p>Release Date: 2021</p>
+                    <p class="price">$549</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-30.jpg" alt="Honor 30"/>
+                    <h3>Honor 30</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$599</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-30-pro.jpg" alt="Honor 30 Pro"/>
+                    <h3>Honor 30 Pro</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$699</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg" alt="Honor 10"/>
+                    <h3>Honor 10</h3>
+                    <p>Release Date: 2018</p>
+                    <p class="price">$399</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-9x-global-new.jpg" alt="Honor 9X"/>
+                    <h3>Honor 9X</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$299</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg" alt="Honor 8"/>
+                    <h3>Honor 8</h3>
+                    <p>Release Date: 2016</p>
+                    <p class="price">$199</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-7x.jpg" alt="Honor Play"/>
+                    <h3>Honor Play</h3>
+                    <p>Release Date: 2018</p>
+                    <p class="price">$349</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-v30.jpg" alt="Honor V30"/>
+                    <h3>Honor V30</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$599</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-200-lite.jpg" alt="Honor 20 Lite"/>
+                    <h3>Honor 20 Lite</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$299</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-90.jpg" alt="Honor 9"/>
+                    <h3>Honor 9</h3>
+                    <p>Release Date: 2017</p>
+                    <p class="price">$349</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg" alt="Honor 8X"/>
+                    <h3>Honor 8X</h3>
+                    <p>Release Date: 2018</p>
+                    <p class="price">$249</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8c.jpg" alt="Honor 8C"/>
+                    <h3>Honor 8C</h3>
+                    <p>Release Date: 2018</p>
+                    <p class="price">$199</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-10-lite.jpg" alt="Honor 10 Lite"/>
+                    <h3>Honor 10 Lite</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$229</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-30s.jpg" alt="Honor 30S"/>
+                    <h3>Honor 30S</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$499</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-v40-lite.jpg" alt="Honor V40 Lite"/>
+                    <h3>Honor V40 Lite</h3>
+                    <p>Release Date: 2021</p>
+                    <p class="price">$549</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-200-pro-.jpg" alt="Honor 20 Pro"/>
+                    <h3>Honor 20 Pro</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$599</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-view-20-ofic.jpg" alt="Honor View 20"/>
+                    <h3>Honor View 20</h3>
+                    <p>Release Date: 2018</p>
+                    <p class="price">$449</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-30-pro-plus.jpg" alt="Honor 30 Pro+"/>
+                    <h3>Honor 30 Pro+</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$799</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-50-lite.jpg" alt="Honor 50 Lite"/>
+                    <h3>Honor 50 Lite</h3>
+                    <p>Release Date: 2021</p>
+                    <p class="price">$299</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-play-4t.jpg" alt="Honor Play 4T"/>
+                    <h3>Honor Play 4T</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$249</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro-.jpg" alt="Honor V40 Pro"/>
+                    <h3>Honor V40 Pro</h3>
+                    <p>Release Date: 2021</p>
+                    <p class="price">$649</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-20s.jpg" alt="Honor 20S"/>
+                    <h3>Honor 20S</h3>
+                    <p>Release Date: 2019</p>
+                    <p class="price">$349</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-30-lite.jpg" alt="Honor 30 Youth"/>
+                    <h3>Honor 30 Youth</h3>
+                    <p>Release Date: 2020</p>
+                    <p class="price">$399</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/honor-magic-v3.jpg"/>
+                    <h3>Honor Magic V3</h3>
+                    <p>Release Date: 2024</p>
+                    <p class="price">$899</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="phone">
+                    <img src="https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-.jpg" alt="Google Pixel 9"/>
+                    <h3>Google Pixel 9</h3>
+                    <p>Release Date: 2024</p>
+                    <p class="price">$799</p>
+                    <div class="rating">⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Group6</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script>
+      function clearFilters() {
+          const checkboxes = document.querySelectorAll('.filters input[type="checkbox"]');
+          checkboxes.forEach(checkbox => checkbox.checked = false);
+      }
+  </script>
+</body>
+</html>
